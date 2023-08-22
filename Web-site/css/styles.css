@@ -1,0 +1,57 @@
+.header {
+    background-color: #101010;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.logo-container {
+    display: inline-block;
+}
+
+.logo-container h1 {
+    margin: 0;
+    display: inline;
+}
+
+.navigation {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    background-color: gray;
+    color: #101010;
+}
+
+.content {
+    clear: both;
+    padding: 20px;
+}
+
+.content img {
+    float: left;
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.content p {
+    margin: 0;
+}
